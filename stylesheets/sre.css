@@ -1,0 +1,27 @@
+h1 {
+    padding: 20px 0px;
+    margin-left: 40px;
+}
+
+.sre-container {
+    padding-bottom: 30px;
+}
+
+.sre-container > p {
+    margin: 5px 0px;
+    margin-left: 30px;
+}
+
+.sre-container > h2 {
+    margin: 20px 0px;
+    margin-left: 40px;
+}
+
+.sre-container > ul {
+    margin-left: 50px;
+}
+
+.sre-container > ul > li {
+    margin: 5px 0px;
+    margin-left: 30px;
+}

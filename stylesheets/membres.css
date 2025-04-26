@@ -1,0 +1,17 @@
+h1 {
+    padding: 20px 0px;
+    margin-left: 40px;
+}
+
+.membres-membre {
+    padding-bottom: 20px;
+}
+
+.membres-membre > h2 {
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.membres-membre > p {
+    margin-left: 40px;
+}

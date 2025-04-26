@@ -1,0 +1,32 @@
+footer {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer > div > h3 {
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list > li {
+    margin-bottom: 10px;
+}
+
+.footer-list > li > a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.footer-list > li > a > img {
+    height: 24px;
+}
+
+.footer-list > li > a > p {
+    margin-left: 8px;
+}
