@@ -12,6 +12,11 @@ h1 {
     margin-bottom: 5px;
 }
 
+h2 > a {
+    text-decoration: none;
+    color: black;
+}
+
 .membres-membre > p {
     margin-left: 40px;
 }

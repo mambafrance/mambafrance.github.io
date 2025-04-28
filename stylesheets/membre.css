@@ -1,0 +1,56 @@
+:root {
+    --table-color: rgb(61, 68, 77);
+    --table-color-odd: rgb(210, 210, 210);
+    --table-color-even: white;
+}
+
+.membre-title {
+    padding: 20px 0px;
+    margin-left: 40px;
+}
+
+.membre-content > * {
+    margin-left: 30px;
+}
+
+.membre-content {
+    h1, h2, h3, h4, h5, h6 {
+        margin: 16px 0px;
+        margin-left: 40px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    th, td {
+        padding: 5px 10px;
+        border: var(--table-color) 1px solid;
+    }
+
+    table {
+        border-spacing: 0px;
+        border: var(--table-color) 1px solid;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: var(--table-color-odd);
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: var(--table-color-even);
+    }
+
+    ul, ol {
+        margin-bottom: 16px;
+        margin-left: 60px;
+    }
+}
+
+.membre-lastModified {
+    padding: 30px 0px;
+}

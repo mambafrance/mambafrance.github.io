@@ -2,21 +2,25 @@
     {
         "name": "ArticOff",
         "grade": "Commandant",
-        "description": "Joueur main d'autoloaders, je n'ai jamais mis un seul point d'équipage dans mon chargeur xD"
+        "description": "Joueur main d'autoloaders, je n'ai jamais mis un seul point d'équipage dans mon chargeur xD",
+        "content": "Ce membre n'a pas souhaité se présenter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !"
     },
     {
         "name": "Mr_RyZe",
         "grade": "Officier",
-        "description": "Description à ajouter."
+        "description": "Description à ajouter.",
+        "content": "Ce membre n'a pas souhaité se présenter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !"
     },
     {
         "name": "Nolho",
         "grade": "Sous-Officier",
-        "description": "Description à ajouter."
+        "description": "Description à ajouter.",
+        "content": "Ce membre n'a pas souhaité se présenter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !"
     },
     {
         "name": "louchebem21",
         "grade": "Membre",
-        "description": "Description à ajouter."
+        "description": "Description à ajouter.",
+        "content": "Ce membre n'a pas souhaité se présenter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !"
     }
 ]

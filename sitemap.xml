@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://mambafrance.github.io</loc>
@@ -10,5 +11,21 @@
     </url>
     <url>
         <loc>https://mambafrance.github.io/about</loc>
+    </url>
+    <url>
+        <loc>https://mambafrance.github.io/membre/ArticOff</loc>
+        <lastmod>2025-04-28T14:00:00Z</lastmod>
+    </url>
+    <url>
+        <loc>https://mambafrance.github.io/membre/Mr_Ryze</loc>
+        <lastmod>2025-04-28T14:00:00Z</lastmod>
+    </url>
+    <url>
+        <loc>https://mambafrance.github.io/membre/Nolho</loc>
+        <lastmod>2025-04-28T14:00:00Z</lastmod>
+    </url>
+    <url>
+        <loc>https://mambafrance.github.io/membre/louchebem21</loc>
+        <lastmod>2025-04-28T14:00:00Z</lastmod>
     </url>
 </urlset>
