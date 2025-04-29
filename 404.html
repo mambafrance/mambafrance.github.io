@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H4FXMMXYV7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-H4FXMMXYV7');
+    </script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,26 +21,26 @@
     <meta content="https://mambafrance.github.io" property="og:url" />
     <meta content="#3477EB" data-react-helmet="true" name="theme-color" />
 
-    <link rel="icon" href="/images/icon.webp" type="image/webp">
+    <link rel="icon" href="/images/favicon.webp" type="image/webp" />
+    <link rel="canonical" href="https://mambafrance.github.io" />
 	
-    <link rel="stylesheet" href="/stylesheets/reset.css">
-	<link rel="stylesheet" href="/stylesheets/font.css">
-    <link rel="stylesheet" href="/stylesheets/header.css">
-    <link rel="stylesheet" href="/stylesheets/main.css">
-    <link rel="stylesheet" href="/stylesheets/footer.css">
-
-    <link rel="stylesheet" href="/stylesheets/404.css">
+    <link rel="stylesheet" href="/stylesheets/reset.css" />
+	<link rel="stylesheet" href="/stylesheets/font.css" />
+    <link rel="stylesheet" href="/stylesheets/header.css" />
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+    <link rel="stylesheet" href="/stylesheets/footer.css" />
+    <link rel="stylesheet" href="/stylesheets/404.css" />
 </head>
 <body>
     <header>
-        <a href="/">
-            <img src="/images/icon.webp" alt="Icone de la Mamba" class="header-icon">
+        <a href="/" title="MambaFrance | Escadron War Thunder">
+            <img src="/images/favicon.webp" alt="Icone de la Mamba" class="header-icon">
         </a>
         <div class="header-list">
             <ul>
-                <li><a href="/" class="header-page">Accueil</a></li>
-                <li><a href="/membres" class="header-page">Membres</a></li>
-                <li><a href="/sre" class="header-page">SRE/SQB</a></li>
+                <li><a href="/" class="header-page" title="Accueil">Accueil</a></li>
+                <li><a href="/membres" class="header-page" title="Membres">Membres</a></li>
+                <li><a href="/sre" class="header-page" title="SRE/SQB">SRE/SQB</a></li>
             </ul>
         </div>
         <div id="header-layer"></div>
@@ -46,15 +55,15 @@
         <div>
             <h6>Ressources</h6>
             <ul class="footer-list">
-                <li><a href="/about">À propos</a></li>
+                <li><a href="/about" title="À propos">À propos</a></li>
             </ul>
         </div>
         <div>
             <h6>Réseaux Sociaux</h6>
             <ul class="footer-list">
                 <li>
-                    <a href="/discord">
-                        <img src="/images/discord.png" alt="Logo Discord">
+                    <a href="/discord" title="🐍 M4MB4 🐍">
+                        <img src="/images/discord.webp" alt="Logo Discord">
                         <p>Discord</p>
                     </a>
                 </li>
