@@ -1,0 +1,22 @@
+details {
+    padding-left: 30px;
+}
+
+summary {
+    font-size: x-large;
+    padding-bottom: 20px;
+}
+
+article {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: large;
+}
