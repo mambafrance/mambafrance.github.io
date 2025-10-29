@@ -1,0 +1,13 @@
+pre {
+    color: rgb(180, 180, 180);
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.recrutement-container {
+    padding-bottom: 30px;
+}

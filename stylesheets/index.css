@@ -17,6 +17,11 @@ h1 {
     margin-bottom: 20px;
 }
 
+.index-container > h3 {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
 .index-button {
     display: flex;
     text-decoration: none;
