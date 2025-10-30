@@ -5,6 +5,7 @@ details {
 summary {
     font-size: x-large;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 article {
@@ -19,4 +20,13 @@ h2 {
 
 p {
     font-size: large;
+}
+
+ol {
+    padding-left: inherit;
+}
+
+li > p {
+    cursor: pointer;
+    font-weight: 500;
 }
