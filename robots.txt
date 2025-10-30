@@ -2,5 +2,3 @@ User-agent: *
 Allow: *
 Host: https://mambafrance.github.io
 Sitemap: https://mambafrance.github.io/sitemap.xml
-
-Disallow: /membre/W%20i%20x%20x%20o%20n
