@@ -26,7 +26,11 @@ ol {
     padding-left: inherit;
 }
 
-li > p {
+ol > li > p {
     cursor: pointer;
     font-weight: 500;
+}
+
+ul {
+    padding-left: 24px;
 }
