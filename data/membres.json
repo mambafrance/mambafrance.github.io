@@ -15,10 +15,24 @@
     },
     {
         "name": "Nolho",
-        "grade": "Sous-Officier",
+        "grade": "Officier",
         "description": "Je suis une abeille tueuse qui louche.",
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
         "uid": 739034199469850654
+    },
+    {
+        "name": "Az\u00e9ri",
+        "grade": "Sous-Officier",
+        "description": "Maniaque des spots racistes, j'y parviendrai, m\u00eame jusqu'\u00e0 la mort.",
+        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
+        "uid": 1149766763236577370
+    },
+    {
+        "name": "BuzZz3R",
+        "grade": "Sous-Officier",
+        "description": "Main Russes car \"Stallinium\" + \"Russian Bias\" oblige (j'essaye de preserver ma sant\u00e9 mentale)",
+        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
+        "uid": 1292792565434810463
     },
     {
         "name": "Axel_Agri",
@@ -161,13 +175,6 @@
         "uid": 702577632046350438
     },
     {
-        "name": "Az\u00e9ri",
-        "grade": "Membre",
-        "description": "Maniaque des spots racistes, j'y parviendrai, m\u00eame jusqu'\u00e0 la mort.",
-        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
-        "uid": 1149766763236577370
-    },
-    {
         "name": "StelIar",
         "grade": "Membre",
         "description": "Un mauvais pilote gagne toujours ses head-on, car il se crash toujours sur l'adversaire.",
@@ -187,13 +194,6 @@
         "description": "Description \u00e0 ajouter.",
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
         "uid": 705887610740015146
-    },
-    {
-        "name": "BuzZz3R",
-        "grade": "Membre",
-        "description": "Main Russes car \"Stallinium\" + \"Russian Bias\" oblige (j'essaye de preserver ma sant\u00e9 mentale)",
-        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
-        "uid": 1292792565434810463
     },
     {
         "name": "Luni_Space",
