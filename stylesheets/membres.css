@@ -1,6 +1,7 @@
 h1 {
     padding: 20px 0px;
     margin-left: 40px;
+    margin-bottom: 20px;
 }
 
 .membres-membre {
@@ -17,6 +18,40 @@ h2 > a {
     color: black;
 }
 
+article {
+    margin-bottom: 5px;
+}
+
 .membres-membre > p {
     margin-left: 40px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.commandant {
+    color: #ff1e00;
+}
+
+.depute {
+    color: #ff6b00;
+}
+
+.officier {
+    color: #ffef00;
+}
+
+.sous-officier {
+    color: #c2ff00;
+}
+
+.createurdecontenu {
+    color: #ff00ea;
+}
+
+.membre {
+    color: #0080ff;
+}
+
+.shadow {
+    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 }
