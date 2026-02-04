@@ -49,7 +49,7 @@
     <main>
         <div class="reglements-container">
             <h1>Règlements</h1>
-            <details>
+            <details id="1">
                 <summary id="10">Règlement du serveur Discord</summary>
                 <article>
                     <h2>Préambule</h2>
@@ -100,7 +100,7 @@
                 </article>
                 <article id="12">
                     <h2>2. Définitions.</h2>
-                    <p>L’<strong>« Escadron »</strong> désigne l’escadron War Thunder [M4MB4] « Le MAMBA Noir ». L’Escadron est un collectif communautaire non commercial et sans personnalité juridique.</p>
+                    <p>L’<strong>« Escadron »</strong> désigne l’escadron War Thunder [M4MB4] « Le MAMBA Noir ». L’Escadron est un collectif communautaire international, non commercial et dépourvu de personnalité juridique.</p>
                     <p>Le <strong>« Serveur »</strong> désigne le serveur Discord de l’Escadron.</p>
                     <p>Le <strong>« membre »</strong> désigne un membre de l’Escadron.</p>
                     <p>Le <strong>« Commandement »</strong> désigne l’ensemble des membres gradés de l’Escadron. Le Commandement agit en tant que modérateur en cas de conflit sur le Serveur. Les grades, classés par ordre d’importance, sont les suivants : Commandant, Député, Officier, Sous-Officier.</p>
@@ -136,6 +136,8 @@
                     <h2>6. Restez pertinent par rapport au salon.</h2>
                     <p>Le <strong>« salon »</strong> désigne un salon de discussion, il peut être textuel ou vocal.</p>
                     <br/>
+                    <p>La langue privilégiée est le français.</p>
+                    <br/>
                     <p>Utilisez les salons conformément à leur objectif et limitez les discussions hors sujet.</p>
                 </article>
                 <article id="17">
@@ -154,7 +156,7 @@
                     <br/>
                     <p>Le Commandement ne pourra être tenu responsable des conséquences liées à la divulgation volontaire d’informations personnelles par un utilisateur.</p>
                     <br/>
-                    <p>Faites attention aux liens ainsi qu’aux fichiers suspects. En cas de doute, adressez-vous directement à un membre du Commandement ou ouvrez un ticket via le Service « Ticket ».</p>
+                    <p>Faites attention aux liens ainsi qu’aux fichiers suspects. En cas de doute, adressez-vous directement à un membre du Commandement ou ouvrez un ticket via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
                 </article>
                 <article id="19">
                     <h2>9. Pas d’auto-promotion ni de publicité.</h2>
@@ -196,7 +198,7 @@
                     <br/>
                     <p>Tenter d’éviter les interdictions ou les <i>mutes</i> en utilisant des comptes alternatifs ou d’autres moyens peut entraîner des infractions ou des interdictions plus punitives.</p>
                     <br/>
-                    <p>Toute contestation doit être faite de manière respectueuse via le Service « Ticket ». Les décisions prises par le Commandement sont définitives une fois le ticket clôturé.</p>
+                    <p>Toute contestation doit être faite de manière respectueuse via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>. Les décisions prises par le Commandement sont définitives une fois le ticket clôturé.</p>
                 </article>
                 <article id="111">
                     <h2>11. Ne trompez pas les autres.</h2>
@@ -206,7 +208,7 @@
                     <h2>12. Droit du Commandement.</h2>
                     <p>Le Commandement se réserve le droit de prendre des mesures en toute discrétion, même si elles ne sont pas mentionnées dans les Règlements.</p>
                     <br/>
-                    <p>Si vous avez un problème avec des mesures prises à votre encontre ou à l’encontre d’un autre utilisateur, vous avez le droit d’utiliser le Service « Ticket ».</p>
+                    <p>Si vous avez un problème avec des mesures prises à votre encontre ou à l’encontre d’un autre utilisateur, vous avez le droit d’utiliser le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
                 </article>
                 <article id="113">
                     <h2>13. Sanctions appliquées.</h2>
@@ -217,14 +219,14 @@
                         <li><p>Tentative de <i>coup d’État</i>* ou de rébellion ;</p></li>
                         <li><p>Haute trahison.</p></li>
                     </ul>
-                    <p>* <i>Le coup d’État désigne ici, le renversement du pouvoir.</i></p>
+                    <p>* <i>Le coup d’État désigne ici, le renversement du pouvoir en place.</i></p>
                     <br/>
-                    <p>Les sanctions peuvent être appliquées en toute discrétion, et sans raison publique.</p>
+                    <p>En vertu du pouvoir discrétionnaire dont dispose le Commandement, les sanctions peuvent être appliquées en toute discrétion, et sans raison publique.</p>
                     <br/>
                     <p>Les sanctions prises par le Commandement doivent être respectées. En cas de non-respect des sanctions, le Commandement s’autorise à alourdir les peines.</p>
                     <br/>
                     <br/>
-                    <h3>13-bis. Du signalement d’un membre du Commandement</h3>
+                    <h3 id="113.1">13-bis. Du signalement d’un membre du Commandement</h3>
                     <p>En cas de signalement envers un membre du Commandement, merci de respecter la procédure suivante.</p>
                     <br>
                     <h3>13-bis-1. Du canal de signalement.</h3>
@@ -232,7 +234,7 @@
                     <br/>
                     <p>Sont formellement interdits :</p>
                     <ul>
-                        <li><p>L’utilisation du service « Ticket » ;</p></li>
+                        <li><p>L’utilisation du <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span> ;</p></li>
                         <li><p>Les salons généraux ;</p></li>
                         <li><p>Tout canal public ou partagé.</p></li>
                     </ul>
@@ -284,7 +286,7 @@
                     <h3>13-bis-5. Des garanties, interdictions et protections.</h3>
                     <p>Toute mesure de représailles, sanction déguisée, pression directe ou indirecte exercée à l’encontre du signalant est constitutive d’une faute lourde.</p>
                     <br/>
-                    <p>Cette protection ne s’applique pas si le signalant est reconnu coupable d’un détournement de procédure ou d’une violation manifeste des règlements en vigueur.</p>
+                    <p>Cette protection ne s’applique pas si le signalant est reconnu coupable d’un détournement de procédure ou d’une violation manifeste des Règlements en vigueur.</p>
                     <br/>
                     <p>Les membres du Commandement sont soumis au présent régime disciplinaire dans les mêmes conditions que les membres non gradés, avec application systématique d’un facteur aggravant en raison de leurs responsabilités.</p>
                 </article>
@@ -292,12 +294,13 @@
                     <h2>14. Service « Ticket ».</h2>
                     <p>Le Commandement met à votre disposition un Service « Ticket », Vous êtes autorisé à l’utiliser pour :</p>
                     <ul>
-                        <li><p>déposer une plainte concernant un membre de l’Escadron ;</p></li>
-                        <li><p>poser une question relative à l’Escadron ;</p></li>
+                        <li><p><i>déposer une plainte concernant un membre de l’Escadron</i>* ;</p></li>
+                        <li><p>poser une question relative à l’Escadron ou à War Thunder ;</p></li>
                         <li><p>soumettre une suggestion au Commandement ;</p></li>
                         <li><p>notifier exclusivement le Commandant ;</p></li>
                         <li><p>ou informer le Commandement de tout élément pertinent.</p></li>
                     </ul>
+                    <p>* <i>En cas de signalement d’un membre du Commandement, référez-vous à l’article <span onclick="terms(1, 13.1)" style="cursor: pointer; font-weight: 500;">13-bis. Du signalement d’un membre du Commandement</span>.</i></p>
                     <br/>
                     <p>À l’exception du motif « notifier exclusivement le Commandant », tous les tickets peuvent être consultés par le Commandement, sont archivés, et peuvent être reconstitués.</p>
                     <br/>
@@ -308,7 +311,7 @@
                 <article id="115">
                     <h2>15. Amendement du règlement</h2>
                     <p>Le Commandement se réserve le droit de modifier le présent règlement à tout moment, et ce, sans préavis.</p>
-                    <p>Toutefois, vous avez la possibilité de soumettre une proposition d’amendement via le Service « Ticket ».</p>
+                    <p>Toutefois, vous avez la possibilité de soumettre une proposition d’amendement via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
                     <br/>
                     <p>Tout amendement approuvé entre en vigueur immédiatement dès son intégration au présent règlement.</p>
                 </article>
@@ -319,15 +322,15 @@
                 </article>
                 <article>
                     <p>Ce présent règlement est susceptible d’être modifié sans préavis.</p>
-                    <p>Pour toute question relative au présent règlement ou pour signaler un comportement inapproprié, veuillez contacter le Commandement via le Service « Ticket ».</p>
+                    <p>Pour toute question relative au présent règlement ou pour signaler un comportement inapproprié, veuillez contacter le Commandement via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
                     <br/>
-                    <p>Dernière modification : <b><time datetime="2026-02-01">1 février 2026</time></b></p>
+                    <p>Dernière modification : <b><time datetime="2026-02-04">4 février 2026</time></b></p>
                     <br/>
                     <p><strong>Règlement officiel approuvé par le Commandement de l’Escadron [M4MB4] « Le MAMBA Noir ».</strong></p>
                     <p><strong>Toute reproduction ou modification sans autorisation est interdite.</strong></p>
                 </article>
             </details>
-            <details>
+            <details id="2">
                 <summary>Règlement de l’Escadron</summary>
                 <article>
                     <h2>Préambule</h2>
@@ -378,7 +381,7 @@
                 </article>
                 <article id="22">
                     <h2>2. Définitions.</h2>
-                    <p>L’<strong>« Escadron »</strong> désigne l’escadron War Thunder [M4MB4] « Le MAMBA Noir ». L’Escadron est un collectif communautaire non commercial et sans personnalité juridique.</p>
+                    <p>L’<strong>« Escadron »</strong> désigne l’escadron War Thunder [M4MB4] « Le MAMBA Noir ». L’Escadron est un collectif communautaire international, non commercial et dépourvu de personnalité juridique.</p>
                     <p>Le <strong>« Serveur »</strong> désigne le serveur Discord de l’Escadron.</p>
                     <p>Le <strong>« membre »</strong> désigne un membre de l’Escadron. Le membre peut également être désigné par les termes <strong>vous</strong>, <strong>votre</strong>, <strong>vos</strong>.</p>
                     <p>Le <strong>« Commandement »</strong> désigne l’ensemble des membres gradés de l’Escadron. Le Commandement agit en tant que modérateur en cas de conflit sur le Serveur. Les grades, classés par ordre d’importance, sont les suivants : Commandant, Député, Officier, Sous-Officier.</p>
@@ -453,14 +456,14 @@
                     <p>Il est fortement recommandé d’utiliser l’ensemble des outils mis à votre disposition comme le « ping jaune » (Définir une cible pour l’escouade), le repérage, les réponses rapides ou la fumée de voltige.</p>
                     <br/>
                     <h3>7-5. Des participants.</h3>
-                    <p>Si un membre ne peut pas jouer ou a une urgence, nous attendons évidemment qu’il nous tienne au courant.</p>
                     <p>Le <i>trash-talking</i> est interdit.</p>
                     <p>Ne changez pas de véhicule et ne prenez pas de décisions tactiques sans l’accord du leader.</p>
-                    
+                    <p>Si un membre ne peut pas jouer ou a une urgence, nous attendons évidemment qu’il nous tienne au courant.</p>
                     <p>En cas de trop grosses pertes de points au cours de la SRE, il est fortement conseillé de reformer une équipe, de prendre une pause, ou d’arrêter la SRE.</p>
                     <p>L’abandon en partie de SRE ou tout manque de discipline ayant une incidence sur la session peut entraîner l’exclusion de l’Escadron.</p>
                     <br/>
                     <h3>7-6. Du Commandement.</h3>
+                    <p>Si le leader n’est pas un membre du Commandement, le Commandement se réserve le droit de récupérer le <i>lead</i> indépendamment de l’avis du leader.</p>
                     <p>Le Commandement se réserve le droit d’exclure un membre de la SRE.</p>
                     <p>Le Commandement se réserve le droit d’arrêter la SRE.</p>
                 </article>
@@ -493,6 +496,18 @@
                     <p>* <i>Le terme d’<strong>« utilisateur »</strong></i> fait référence à la définition donnée dans les Conditions d’utilisation de Gaijin.</p>
                     <br/>
                     <p>Le Commandement se réserve le droit d’interdire et de sanctionner cette pratique.</p>
+                    <br/>
+                    <p>Le prêt d’un compte disposant de droits de modération au sein de l’Escadron est fortement déconseillé, en particulier à des individus extérieurs au Commandement.</p>
+                    <p>Privilégiez un autre membre du Commandement pour prêter votre compte.</p>
+                    <br/>
+                    <p>Si un compte est prêté à un invididu extérieur au Commandement, il est fortement recommandé d’en informer préalablement le Commandement.</p>
+                    <p>À défaut de signalement, l’intégralité des actions effectuées via le compte sera réputée avoir été réalisée avec l’accord et sous la responsabilité de son titulaire, notamment :</p>
+                    <ul>
+                        <li><p>L’édition de l’Escadron ;</p></li>
+                        <li><p>La promotion et la rétrogradation d’un ou plusieurs membres ;</p></li>
+                        <li><p>L’exclusion d’un ou plusieurs membres ;</p></li>
+                        <li><p>L’ensemble des messages envoyés depuis War Thunder.</p></li>
+                    </ul>
                 </article>
                 <article id="211">
                     <h2>11. L’absence.</h2>
@@ -543,24 +558,24 @@
                     <br/>
                     <p>Les données peuvent être communiquées au Commandement, à ses ambassadeurs, et, le cas échéant, à d’autres commandements partenaires en cas de transfert de membre avec l’accord explicite du membre concerné.</p>
                     <br/>
-                    <p>Vous disposez des droits suivants :</p>
+                    <p>Conformément au <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">Règlement général sur la protection des données (RGPD)</a>, vous disposez des droits suivants :</p>
                     <ul>
                         <li><p>Droit d’accès, de rectification, d’effacement, de limitation, d’opposition, à la portabilité de ses données ;</p></li>
                         <li><p>Droit de retirer votre consentement à tout moment ;</p></li>
-                        <li><p>Droit d’introduire une réclamation auprès de la CNIL ou d’une autre autorité de protection des données.</p></li>
+                        <li><p>Droit d’introduire une réclamation auprès de la <a href="https://cnil.fr/">CNIL</a> ou d’une autre autorité de protection des données.</p></li>
                     </ul>
-                    <p>Pour exercer ces droits, contacter le Commandement via le Service « Ticket ».</p>
+                    <p>Pour exercer ces droits, contacter le Commandement via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
                     <br/>
                     <p>Les informations internes à l’Escadron (fiches membres, code source, discussions privées) ne doivent pas être diffusées sans autorisation du Commandement.</p>
                 </article>
                 <article id="214">
                     <h2>14. Contact.</h2>
-                    <p>Pour toute demande de clarification ou d’amendement du présent règlement, adressez-vous directement à un membre du Commandement ou ouvrez un ticket via le Service « Ticket ».</p>
+                    <p>Pour toute demande de clarification ou d’amendement du présent règlement, adressez-vous directement à un membre du Commandement ou ouvrez un ticket via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
                 </article>
                 <article id="215">
                     <h2>15. Amendement du règlement.</h2>
                     <p>Le Commandement se réserve le droit de modifier le présent règlement à tout moment, sous réserve d’un préavis en cas d’amendement pour les membres ayant le titre de « Gardien du Règlement ».</p>
-                    <p>Vous avez la possibilité de soumettre une proposition d’amendement via le Service « Ticket ».</p>
+                    <p>Vous avez la possibilité de soumettre une proposition d’amendement via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
                     <br/>
                     <p>Tout amendement approuvé entre en vigueur immédiatement dès son intégration au présent règlement.</p>
                 </article>
@@ -571,9 +586,9 @@
                 </article>
                 <article>
                     <p>Ce présent règlement est susceptible d’être modifié, sous réserve d’un préavis en cas d’amendement pour les membres ayant le titre de « Gardien du Règlement ».</p>
-                    <p>Pour toute question relative au présent règlement ou pour signaler un comportement inapproprié, veuillez contacter le Commandement via le Service « Ticket ».</p>
+                    <p>Pour toute question relative au présent règlement ou pour signaler un comportement inapproprié, veuillez contacter le Commandement via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
                     <br/>
-                    <p>Dernière modification : <b><time datetime="2026-02-01">1 février 2026</time></b></p>
+                    <p>Dernière modification : <b><time datetime="2026-02-04">4 février 2026</time></b></p>
                     <br/>
                     <p><strong>Règlement officiel approuvé par le Commandement de l’Escadron [M4MB4] « Le MAMBA Noir ».</strong></p>
                     <p><strong>Toute reproduction ou modification sans autorisation est interdite.</strong></p>

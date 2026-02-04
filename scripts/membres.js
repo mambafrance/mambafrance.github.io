@@ -42,7 +42,7 @@ function addMember(member) {
     const h2 = document.createElement("h2");
     h2.appendChild(a); 
     article.appendChild(h2);
-    if (member.description != "Description \u00e0 ajouter.") {
+    if (member.description) {
         const p = document.createElement("p");
         p.textContent = member.description;
         p.setAttribute("itemprop", "description");
