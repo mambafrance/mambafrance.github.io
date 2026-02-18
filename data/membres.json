@@ -22,17 +22,31 @@
     },
     {
         "name": "Az\u00e9ri",
-        "grade": "Sous-Officier",
+        "grade": "Officier",
         "description": "Maniaque des spots racistes, j'y parviendrai, m\u00eame jusqu'\u00e0 la mort.",
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
         "uid": 1149766763236577370
     },
     {
         "name": "BuzZz3R",
-        "grade": "Sous-Officier",
+        "grade": "Officier",
         "description": "Main Russes car \"Stallinium\" + \"Russian Bias\" oblige (j'essaye de preserver ma sant\u00e9 mentale)",
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
         "uid": 1292792565434810463
+    },
+    {
+        "name": "DadaSo6",
+        "grade": "Sous-Officier",
+        "description": "Le meilleur joueur de l'escadron",
+        "content": "Pays | BR char | BR avion\n---------|---------|---------\nJapon  |   11.7  |   /\nRussie   |   11.0  |   /\nSu\u00e8de   |   8.0  |   4.0\nIsra\u00ebl  |   6.3  |   /\nAllemagne  |   5.7  |   /",
+        "uid": 638642683694284811
+    },
+    {
+        "name": "xpray680",
+        "grade": "Sous-Officier",
+        "description": null,
+        "content": "Pays | BR char | BR avion\n---------|---------|---------\nRussie   |   11.3   |   11.7\nFrance   |   12.7   |   14.7\nAllemagne  |   12.7   |   14.7\nUSA  |   12.0   |   12.0",
+        "uid": 644190115492790284
     },
     {
         "name": "Axel_Agri",
@@ -203,13 +217,6 @@
         "uid": 893486239817277580
     },
     {
-        "name": "DadaSo6",
-        "grade": "Membre",
-        "description": "\u00ab L\u2019Italie a invent\u00e9 le concept de \u201cchar furtif\u201d : il dispara\u00eet au premier tir. \u00bb",
-        "content": "Pays | BR char | BR avion\n---------|---------|---------\nJapon  |   11.7  |   /\nRussie   |   11.0  |   /\nSu\u00e8de   |   8.0  |   4.0\nIsra\u00ebl  |   6.3  |   /\nAllemagne  |   5.7  |   /",
-        "uid": 638642683694284811
-    },
-    {
         "name": "ShaDowSun",
         "grade": "Membre",
         "description": "Le caribou",
@@ -222,13 +229,6 @@
         "description": "Bon fran\u00e7ais qui joue la France, ma France, mon pinard.",
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
         "uid": 426271387934523392
-    },
-    {
-        "name": "xpray680",
-        "grade": "Membre",
-        "description": null,
-        "content": "Pays | BR char | BR avion\n---------|---------|---------\nRussie   |   11.3   |   11.7\nFrance   |   12.7   |   14.7\nAllemagne  |   12.7   |   14.7\nUSA  |   12.0   |   12.0",
-        "uid": 644190115492790284
     },
     {
         "name": "WeeLeSang_",
@@ -275,7 +275,7 @@
     {
         "name": "Gogoat72",
         "grade": "Membre",
-        "description": null,
+        "description": "As du flanking et de la pi-raterie; bref, discret, prudent, intelligent, et très proche de l'Homme",
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
         "uid": 1401209938306535586
     }
