@@ -285,5 +285,12 @@
         "description": "Panzergranate Geladen !",
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
         "uid": 808380394667900989
+    },
+    {
+        "name": "Queue_Rouge",
+        "grade": "Membre",
+        "description": null,
+        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
+        "uid": 401877562789330944
     }
 ]
