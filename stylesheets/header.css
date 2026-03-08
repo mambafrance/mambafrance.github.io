@@ -13,7 +13,7 @@ header {
 .header-list {
     width: 50%;
     margin: 0px auto;
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 .header-list > ul {
@@ -36,8 +36,9 @@ header {
     color: black;
 }
 
-.header-underline {
-    border-bottom: 2px solid black;
+.header-underline > a {
+    text-decoration: underline;
+    text-underline-offset: 4.6px;
 }
 
 #header-layer {
