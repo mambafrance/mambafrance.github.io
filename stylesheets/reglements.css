@@ -34,3 +34,17 @@ ol > li > p {
 ul {
     padding-left: 24px;
 }
+
+.mark {
+    animation: marker 2s;
+}
+
+@keyframes marker {
+    0%{
+        color: red;
+    }
+
+    100% {
+        color: black;
+    }
+}
