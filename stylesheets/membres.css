@@ -15,6 +15,8 @@ h2 {
 
 .membres-a > img {
     border-radius: 4px;
+    width: 40px;
+    height: 40px;
 }
 
 .membres-a {

@@ -34,7 +34,6 @@ function addMember(member) {
         image.src = "/images/avatar/default.avif";
     });
     image.alt = `${member.name} icône`;
-    image.width = 40;
     const name = document.createElement("span");
     name.textContent = member.name;
     name.setAttribute("itemprop", "callSign");
