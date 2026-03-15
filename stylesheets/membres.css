@@ -8,14 +8,22 @@ h1 {
     padding-bottom: 20px;
 }
 
-.membres-membre > h2 {
-    margin-left: 50px;
-    margin-bottom: 5px;
+h2 {
+    margin: auto 0;
+    margin-left: 10px;
 }
 
-h2 > a {
+.membres-a > img {
+    border-radius: 4px;
+}
+
+.membres-a {
+    display: flex;
     text-decoration: none;
     color: black;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    width: fit-content;
 }
 
 article {

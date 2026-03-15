@@ -48,10 +48,13 @@
     </header>
     <main>
         <div class="reglements-container">
-            <h1>Règlements</h1>
+            <div class="reglements-top">
+                <h1>Règlements</h1>
+                <input type="search" name="research" id="search" placeholder="Ex. : Commandement, membre, sanction">
+            </div>
             <details id="1">
                 <summary id="10">Règlement du serveur Discord</summary>
-                <article>
+                <article id="10.1">
                     <h2>Préambule</h2>
                     <p>Le serveur Discord de l’Escadron est un espace d’échange, de convivialité et de coordination ouvert à l’ensemble de ses membres.</p>
                     <p>Le présent règlement a pour objectif d’assurer un environnement respectueux, sécurisé et accessible à tous, indépendamment de l’ancienneté, du grade ou du niveau de jeu.</p>
@@ -338,8 +341,8 @@
                 </article>
             </details>
             <details id="2">
-                <summary>Règlement de l’Escadron</summary>
-                <article>
+                <summary id="20">Règlement de l’Escadron</summary>
+                <article id="20.1">
                     <h2>Préambule</h2>
                     <p>L’Escadron est une communauté fondée sur le respect, la coopération et le plaisir de jeu.</p>
                     <p>Le présent règlement a pour objectif de définir un cadre clair et équilibré permettant à ses membres d’évoluer ensemble dans un environnement sain, structuré et pérenne.</p>
@@ -373,9 +376,10 @@
                         <li><p onclick="terms(2, 11)">L’absence.</p></li>
                         <li><p onclick="terms(2, 12)">Le recrutement.</p></li>
                         <li><p onclick="terms(2, 13)">Protection des données et confidentialité.</p></li>
-                        <li><p onclick="terms(2, 14)">Contact.</p></li>
-                        <li><p onclick="terms(2, 15)">Amendement du règlement.</p></li>
-                        <li><p onclick="terms(2, 16)">Application du règlement.</p></li>
+                        <li><p onclick="terms(2, 14)">Le départ d’un membre.</p></li>
+                        <li><p onclick="terms(2, 15)">Contact.</p></li>
+                        <li><p onclick="terms(2, 16)">Amendement du règlement.</p></li>
+                        <li><p onclick="terms(2, 17)">Application du règlement.</p></li>
                     </ol>
                 </article>
                 <article id="21">
@@ -471,7 +475,7 @@
                     <br/>
                     <h3>7-6. Du Commandement.</h3>
                     <p>Si le leader n’est pas un membre du Commandement, le Commandement se réserve le droit de récupérer le <i>lead</i> indépendamment de l’avis du leader.</p>
-                    <p>Le Commandement se réserve le droit d’exclure un membre de la SQB.</p>
+                    <p>Le Commandement se réserve le droit d’exclure un membre de la session de SQB.</p>
                     <p>Le Commandement se réserve le droit d’arrêter la session de SQB.</p>
                 </article>
                 <article id="28">
@@ -562,7 +566,7 @@
                     <p><small>1. <i>Cette donnée est facultative et ne repose que sur une déclaration volontaire.</i></small></p>
                     <p><small>2. <i>Cette donnée est facultative. Il s’agit d’une courte description librement rédigée par le membre, à caractère humoristique ou informatif, destinée à favoriser la cohésion et la convivialité au sein de l’Escadron. Elle ne concerne pas des informations physiques ou sensibles.</i></small></p>
                     <p><small>3. <i>Cette donnée concerne le consentement au référencement du membre au travers du site internet.</i></small></p>
-                    <p><small>4. <i>Cette donnée concerne le consentement à l’ajout d’un rôle de géolocalisation continentale. (Afrique, Amérique, Asie, Europe et Océanie)</i></small></p>
+                    <p><small>4. <i>Cette donnée concerne le consentement à l’ajout d’un rôle de géolocalisation continentale sur le Serveur. (Afrique, Amérique, Asie, Europe et Océanie)</i></small></p>
                     <br/>
                     <p>Le Commandement peut ajouter ou modifier certaines informations dans les fiches membres lorsque cela est pertinent pour la gestion de l’Escadron.</p>
                     <br/>
@@ -582,18 +586,28 @@
                     <p>Les informations internes à l’Escadron (fiches membres, code source, discussions privées) ne doivent pas être diffusées sans autorisation du Commandement.</p>
                 </article>
                 <article id="214">
-                    <h2>14. Contact.</h2>
-                    <p>Pour toute demande de clarification ou d’amendement du présent règlement, adressez-vous directement à un membre du Commandement ou ouvrez un ticket via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
+                    <h2>14. Le départ d’un membre.</h2>
+                    <p>Conformément à ce qui est énoncé dans le <span onclick="terms(2, 0.1)" style="cursor: pointer; font-weight: 500;">Préambule</span>, l’appartenance à l’Escadron n’engage pas les membres de manière permanente.</p>
+                    <p>Chaque membre est donc libre de quitter l’Escadron à tout moment.</p>
+                    <br/>
+                    <p>Il est toutefois demandé, par courtoisie et dans un souci de bonne organisation, de prévenir le Commandement de son départ et, si possible, d’en indiquer les raisons.</p>
+                    <br/>
+                    <p>Le départ du serveur Discord sans information préalable du Commandement n’est pas considéré comme acceptable.</p>
+                    <p>En conséquence, tout membre souhaitant quitter le serveur est invité à en informer le Commandement au préalable et à en préciser les raisons. À défaut, le Commandement se réserve la possibilité de prononcer une exclusion formelle de l’Escadron.</p>
                 </article>
                 <article id="215">
-                    <h2>15. Amendement du règlement.</h2>
+                    <h2>15. Contact.</h2>
+                    <p>Pour toute demande de clarification ou d’amendement du présent règlement, adressez-vous directement à un membre du Commandement ou ouvrez un ticket via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
+                </article>
+                <article id="216">
+                    <h2>16. Amendement du règlement.</h2>
                     <p>Le Commandement se réserve le droit de modifier le présent règlement à tout moment, sous réserve d’un préavis en cas d’amendement pour les membres qui disposent du titre de « Gardien du Règlement ».</p>
                     <p>Vous avez la possibilité de soumettre une proposition d’amendement via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
                     <br/>
                     <p>Tout amendement approuvé entre en vigueur immédiatement dès son intégration au présent règlement.</p>
                 </article>
-                <article id="216">
-                    <h2>16. Application du règlement.</h2>
+                <article id="217">
+                    <h2>17. Application du règlement.</h2>
                     <p>En rejoignant l’Escadron, vous reconnaissez avoir pris connaissance et accepté l’intégralité du présent règlement.</p>
                     <p>Si vous refusez ces conditions, vous devez quitter l’Escadron.</p>
                 </article>
@@ -601,7 +615,7 @@
                     <p>Ce présent règlement est susceptible d’être modifié, sous réserve d’un préavis en cas d’amendement pour les membres qui disposent du titre de « Gardien du Règlement ».</p>
                     <p>Pour toute question relative au présent règlement ou pour signaler un comportement inapproprié, veuillez contacter le Commandement via le <span onclick="terms(1, 14)" style="cursor: pointer; font-weight: 500;">Service « Ticket »</span>.</p>
                     <br/>
-                    <p>Dernière modification : <b><time datetime="2026-03-13">13 mars 2026</time></b></p>
+                    <p>Dernière modification : <b><time datetime="2026-03-13">14 mars 2026</time></b></p>
                     <br/>
                     <p><strong>Règlement officiel approuvé par le Commandement de l’Escadron [M4MB4] « Le MAMBA Noir ».</strong></p>
                     <p><strong>Toute reproduction ou modification sans autorisation est interdite.</strong></p>
@@ -638,5 +652,6 @@
     </footer>
     <script src="/scripts/scroll.js"></script>
     <script src="/scripts/reglements.js"></script>
+    <script src="/scripts/background.js"></script>
 </body>
 </html>

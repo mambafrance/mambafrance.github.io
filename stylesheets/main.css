@@ -5,7 +5,8 @@ html {
 main {
     padding-top: 187px;
     padding-bottom: 30px;
-    background-color: rgb(52, 119, 235);
+    background-attachment: fixed !important;
+    background-size: cover !important;
 }
 
 main > div {

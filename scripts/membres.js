@@ -12,12 +12,13 @@ GRADE = {
 function addMember(member) {
     /*
     <article class="membres-membre" itemscope itemtype="https://schema.org/Person">
-        <h2>
-            <a href="/membre/Nom" title="Voir le profile">
+        <a href="/membre/Nom" title="Voir le profile" class="membres-a">
+            <img src="/images/avatar/ID.image" alt="Nom icône" width="50" id="ID" />
+            <h2>
                 <span itemprop="callSign">Nom</span>
                 <span> — <span>Grade</span></span>
-            </a>
-        </h2>
+            </h2>
+        </a>
         <p itemprop="description">Description</p>
     </article>
     */
@@ -25,6 +26,15 @@ function addMember(member) {
     article.classList.add("membres-membre");
     article.setAttribute("itemscope", "");
     article.setAttribute("itemtype", "https://schema.org/Person");
+    const image = document.createElement("img");
+    image.src = `/images/avatar/${member.uid}.webp`;
+    fetch(`/images/avatar/${member.uid}.webp`)
+    .then(response => {
+        if (response.status != 404) { return; }
+        image.src = "/images/avatar/default.avif";
+    });
+    image.alt = `${member.name} icône`;
+    image.width = 40;
     const name = document.createElement("span");
     name.textContent = member.name;
     name.setAttribute("itemprop", "callSign");
@@ -34,14 +44,16 @@ function addMember(member) {
     const grade2 = document.createElement("span");
     grade2.textContent = " — ";
     grade2.appendChild(grade);
+    const h2 = document.createElement("h2");
+    h2.appendChild(name);
+    h2.appendChild(grade2);
     const a = document.createElement("a");
-    a.appendChild(name);
-    a.appendChild(grade2);
     a.href = `/membre/${member.name}`;
     a.setAttribute("title", "Voir le profile");
-    const h2 = document.createElement("h2");
-    h2.appendChild(a); 
-    article.appendChild(h2);
+    a.classList.add("membres-a");
+    a.appendChild(image);
+    a.appendChild(h2); 
+    article.appendChild(a);
     if (member.description) {
         const p = document.createElement("p");
         p.textContent = member.description;

@@ -51,8 +51,15 @@ h1 {
 
 .index-article {
     padding: 30px 0px;
+    justify-content: center;
 }
 
 .index-article > div {
     padding-left: 30px;
+    height: fit-content;
+    margin: auto 0;
+}
+
+.index-desc {
+    width: 48vw;
 }
