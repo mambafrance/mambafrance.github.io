@@ -59,6 +59,7 @@ ul {
 
 .reglements-top {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .reglements-top > input {
@@ -67,4 +68,12 @@ ul {
     padding: 16px 8px;
     margin: auto 0;
     margin-left: auto;
+}
+
+@media only screen and (max-width: 745px) {
+    #search {
+        margin-left: 0;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
 }
