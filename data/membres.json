@@ -36,17 +36,45 @@
     },
     {
         "name": "DadaSo6",
-        "grade": "Sous-Officier",
+        "grade": "Officier",
         "description": "Le meilleur joueur de l'escadron",
         "content": "Pays | BR char | BR avion\n---------|---------|---------\nJapon  |   11.7  |   /\nRussie   |   11.0  |   /\nSu\u00e8de   |   8.0  |   4.0\nIsra\u00ebl  |   6.3  |   /\nAllemagne  |   5.7  |   /",
         "uid": "638642683694284811"
     },
     {
         "name": "xpray680",
-        "grade": "Sous-Officier",
+        "grade": "Officier",
         "description": null,
         "content": "Pays | BR char | BR avion\n---------|---------|---------\nRussie   |   11.3   |   11.7\nFrance   |   12.7   |   14.7\nAllemagne  |   12.7   |   14.7\nUSA  |   12.0   |   12.0",
         "uid": "644190115492790284"
+    },
+    {
+        "name": "MerlinLenfanteur",
+        "grade": "Sous-Officier",
+        "description": "La M4MB4 est l'\u00e9lite.",
+        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
+        "uid": "819940372301479978"
+    },
+    {
+        "name": "JeanPaff",
+        "grade": "Sous-Officier",
+        "description": null,
+        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
+        "uid": "285412306475548672"
+    },
+    {
+        "name": "SGNRCastelan",
+        "grade": "Sous-Officier",
+        "description": null,
+        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
+        "uid": "739503628234129430"
+    },
+    {
+        "name": "HiroShade",
+        "grade": "Sous-Officier",
+        "description": "Joue les chars lourds pour compenser une faiblesse...",
+        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
+        "uid": "269216100120526849"
     },
     {
         "name": "Axel_Agri",
@@ -224,13 +252,6 @@
         "uid": "1033694389668692009"
     },
     {
-        "name": "SGNRCastelan",
-        "grade": "Membre",
-        "description": null,
-        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
-        "uid": "739503628234129430"
-    },
-    {
         "name": "Gogoat72",
         "grade": "Membre",
         "description": "As du flanking et de la pi-raterie; bref, discret, prudent, intelligent, et tr\u00e8s proche de l'Homme",
@@ -264,20 +285,6 @@
         "description": null,
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
         "uid": "1335990037103509565"
-    },
-    {
-        "name": "MerlinLenfanteur",
-        "grade": "Membre",
-        "description": "La M4MB4 est l'\u00e9lite.",
-        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
-        "uid": "819940372301479978"
-    },
-    {
-        "name": "JeanPaff",
-        "grade": "Membre",
-        "description": null,
-        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
-        "uid": "285412306475548672"
     },
     {
         "name": "fridhelm_troast",
@@ -336,13 +343,6 @@
         "uid": "507114316038930442"
     },
     {
-        "name": "HiroShade",
-        "grade": "Membre",
-        "description": "Joue les chars lourds pour compenser une faiblesse...",
-        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
-        "uid": "269216100120526849"
-    },
-    {
         "name": "__MaoRiders__",
         "grade": "Membre",
         "description": null,
@@ -397,5 +397,12 @@
         "description": null,
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
         "uid": "946121542159462420"
+    },
+    {
+        "name": "Ivan13",
+        "grade": "Membre",
+        "description": null,
+        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
+        "uid": "823184381161898005"
     }
 ]
