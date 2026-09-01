@@ -35,18 +35,18 @@
         "uid": "1292792565434810463"
     },
     {
-        "name": "DadaSo6",
-        "grade": "Officier",
-        "description": "Le meilleur joueur de l'escadron",
-        "content": "Pays | BR char | BR avion\n---------|---------|---------\nJapon  |   11.7  |   /\nRussie   |   11.0  |   /\nSu\u00e8de   |   8.0  |   4.0\nIsra\u00ebl  |   6.3  |   /\nAllemagne  |   5.7  |   /",
-        "uid": "638642683694284811"
-    },
-    {
         "name": "xpray680",
         "grade": "Officier",
         "description": null,
         "content": "Pays | BR char | BR avion\n---------|---------|---------\nRussie   |   11.3   |   11.7\nFrance   |   12.7   |   14.7\nAllemagne  |   12.7   |   14.7\nUSA  |   12.0   |   12.0",
         "uid": "644190115492790284"
+    },
+    {
+        "name": "SGNRCastelan",
+        "grade": "Officier",
+        "description": null,
+        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
+        "uid": "739503628234129430"
     },
     {
         "name": "MerlinLenfanteur",
@@ -56,6 +56,13 @@
         "uid": "819940372301479978"
     },
     {
+        "name": "DadaSo6",
+        "grade": "Sous-Officier",
+        "description": "Le meilleur joueur de l'escadron",
+        "content": "Pays | BR char | BR avion\n---------|---------|---------\nJapon  |   11.7  |   /\nRussie   |   11.0  |   /\nSu\u00e8de   |   8.0  |   4.0\nIsra\u00ebl  |   6.3  |   /\nAllemagne  |   5.7  |   /",
+        "uid": "638642683694284811"
+    },
+    {
         "name": "JeanPaff",
         "grade": "Sous-Officier",
         "description": null,
@@ -63,11 +70,11 @@
         "uid": "285412306475548672"
     },
     {
-        "name": "SGNRCastelan",
+        "name": "ethan7586",
         "grade": "Sous-Officier",
         "description": null,
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
-        "uid": "739503628234129430"
+        "uid": "573516753435361288"
     },
     {
         "name": "Axel_Agri",
@@ -208,13 +215,6 @@
         "description": null,
         "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
         "uid": "483305755458404352"
-    },
-    {
-        "name": "ethan7586",
-        "grade": "Membre",
-        "description": null,
-        "content": "Ce membre n'a pas souhait\u00e9 se pr\u00e9senter, mais nous sommes convaincus qu'il s'agit d'une bonne personne !",
-        "uid": "573516753435361288"
     },
     {
         "name": "Fenetre_humain",
