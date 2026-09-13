@@ -3,4 +3,4 @@ Allow: *
 Host: https://mambafrance.github.io
 Sitemap: https://mambafrance.github.io/sitemap.xml
 
-Disallow: /membre/fridhelm_troast
+Disallow: /membre/willem_tr0ast
